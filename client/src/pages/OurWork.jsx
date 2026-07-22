@@ -7,6 +7,7 @@ const workAreas = [
   { icon: 'fa-venus', title: 'Women Empowerment', text: 'Supporting women to lead independent, secure, and empowered lives in their communities.' },
   { icon: 'fa-house-flood-water', title: 'Disaster Response', text: 'Standing beside families with timely relief and recovery support when emergencies strike.' },
   { icon: 'fa-seedling', title: 'Empowering Grassroots', text: 'Strengthening local changemakers and community-led solutions that create lasting impact.' },
+  { icon: 'fa-children', title: 'Privileged Children', text: 'Creating joyful, inclusive experiences that help children learn, grow, and discover their potential.' },
 ];
 
 export default function OurWork() {

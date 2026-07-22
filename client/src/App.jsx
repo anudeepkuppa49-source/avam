@@ -10,6 +10,8 @@ import Media from './pages/Media';
 import Resources from './pages/Resources';
 import Dashboard from './pages/Dashboard';
 import OurWork from './pages/OurWork';
+import Campaigns from './pages/Campaigns';
+import GetInvolved from './pages/GetInvolved';
 import './App.css';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
         <Route path="/resources" element={<Resources />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/our-work" element={<OurWork />} />
+        <Route path="/campaigns" element={<Campaigns />} />
+        <Route path="/get-involved" element={<GetInvolved />} />
       </Routes>
       <Footer />
     </Router>

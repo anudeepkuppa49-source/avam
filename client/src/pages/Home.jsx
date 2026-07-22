@@ -9,6 +9,7 @@ const images = {
   livelihood: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=85',
   disaster: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=900&q=85',
   grassroots: 'https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=900&q=85',
+  children: 'https://images.unsplash.com/photo-1489710437720-ebb67ec84dd2?auto=format&fit=crop&w=900&q=85',
 };
 
 const programmes = [
@@ -18,6 +19,7 @@ const programmes = [
   ['Livelihood', 'Skills, training and opportunity for under-served young people.', images.livelihood],
   ['Disaster Response', 'Timely relief and recovery support for affected families.', images.disaster],
   ['Empowering Grassroots', 'Strengthening community-led organisations and solutions.', images.grassroots],
+  ['Privileged Children', 'Inclusive experiences that help children learn, grow, and thrive.', images.children],
 ];
 
 const causes = [
