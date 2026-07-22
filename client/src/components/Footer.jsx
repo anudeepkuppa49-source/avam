@@ -23,7 +23,7 @@ export default function Footer() {
             <ul>
               <li><Link to="/">Home</Link></li>
               <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/#programs">Programs</Link></li>
+              <li><Link to="/our-work">Programs</Link></li>
               <li><Link to="/#campaigns">Campaigns</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
@@ -31,11 +31,11 @@ export default function Footer() {
           <div className="footer-col">
             <h4>Our Work</h4>
             <ul>
-              <li><a href="#">Education</a></li>
-              <li><a href="#">Healthcare</a></li>
-              <li><a href="#">Livelihood</a></li>
-              <li><a href="#">Women Empowerment</a></li>
-              <li><a href="#">Disaster Response</a></li>
+              <li><Link to="/our-work">Education</Link></li>
+              <li><Link to="/our-work">Healthcare</Link></li>
+              <li><Link to="/our-work">Livelihood</Link></li>
+              <li><Link to="/our-work">Women Empowerment</Link></li>
+              <li><Link to="/our-work">Disaster Response</Link></li>
             </ul>
           </div>
           <div className="footer-col">

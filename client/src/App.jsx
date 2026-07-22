@@ -9,6 +9,7 @@ import Donate from './pages/Donate';
 import Media from './pages/Media';
 import Resources from './pages/Resources';
 import Dashboard from './pages/Dashboard';
+import OurWork from './pages/OurWork';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/media" element={<Media />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/our-work" element={<OurWork />} />
       </Routes>
       <Footer />
     </Router>

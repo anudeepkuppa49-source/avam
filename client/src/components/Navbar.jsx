@@ -17,7 +17,7 @@ export default function Navbar() {
         <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
           <li><Link to="/" className={isActive('/')} onClick={() => setMenuOpen(false)}>Home</Link></li>
           <li><Link to="/about" className={isActive('/about')} onClick={() => setMenuOpen(false)}>About Us</Link></li>
-          <li><Link to="/#programs" className={isActive('/#programs')} onClick={() => setMenuOpen(false)}>Our Work</Link></li>
+          <li><Link to="/our-work" className={isActive('/our-work')} onClick={() => setMenuOpen(false)}>Our Work</Link></li>
           <li><Link to="/#campaigns" className={isActive('/#campaigns')} onClick={() => setMenuOpen(false)}>Campaigns</Link></li>
           <li><Link to="/media" className={isActive('/media')} onClick={() => setMenuOpen(false)}>Media</Link></li>
           <li><Link to="/resources" className={isActive('/resources')} onClick={() => setMenuOpen(false)}>Resources</Link></li>
