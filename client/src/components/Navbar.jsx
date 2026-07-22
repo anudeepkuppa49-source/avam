@@ -22,7 +22,6 @@ export default function Navbar() {
     <Link to="/" className="logo" onClick={closeMenus}><span className="logo-mark"><i className="fas fa-hands-holding-circle" /></span><span>AVAM<small>FOUNDATION</small></span></Link>
     <button className="nav-toggle" onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle navigation"><i className={`fas ${menuOpen ? 'fa-times' : 'fa-bars'}`} /></button>
     <ul className={`nav-menu ${menuOpen ? 'active' : ''}`}>
-      <li><Link to="/" className={isActive('/')} onClick={closeMenus}>Home</Link></li>
       {navigation.map((section) => <li className={`nav-dropdown ${openDropdown === section.label ? 'open' : ''}`} key={section.label}>
         <button type="button" className={`${isActive(section.path)} nav-dropdown-toggle`} onClick={() => setOpenDropdown(openDropdown === section.label ? null : section.label)} aria-expanded={openDropdown === section.label}>
           {section.label} <i className="fas fa-chevron-down" />
